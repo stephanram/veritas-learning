@@ -1,0 +1,16 @@
+.mat-toolbar.mat-primary {
+    background: #334b63;
+    color: #fff;
+}
+
+.chat-icon {
+    margin: auto;
+}
+
+.welcome-text {
+    font-size: 10px;
+}
+
+.welcome-text-user {
+    font-size: 10px;
+}
