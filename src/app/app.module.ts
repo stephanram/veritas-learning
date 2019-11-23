@@ -12,13 +12,15 @@ import {MatIconModule} from '@angular/material/icon';
 import { TopBannerComponent } from './top-banner/top-banner.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { FilterOptionComponent } from './filter-option/filter-option.component';
+import { YearSliderComponent } from './year-slider/year-slider.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
     TopBannerComponent,
-    FilterOptionComponent
+    FilterOptionComponent,
+    YearSliderComponent
   ],
   imports: [
     BrowserModule,
