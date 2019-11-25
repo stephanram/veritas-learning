@@ -14,7 +14,8 @@ export class YearSliderComponent implements OnInit {
   }
 
   sliderOnChangeHandler = ($event: any) => {
-    this.Year = $event.value;
+    console.log($event.target.value);
+    this.Year = $event.target.value;
   }
 
 }

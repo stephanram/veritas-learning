@@ -1,4 +1,23 @@
-<div class="row">
-    <input type="text" id="Year">
-    <input type="range" id="YearSlider" (ng-change)="sliderOnChangeHandler($event)" min="1991" max="2019" step="1">
+<div class="year-container shadow-sm p-3 mb-5 bg-white rounded">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="../assets/images/calendar-icon.png" alt="logo icon here">
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <span class="process-year-label">Process Year</span>
+                    </div>
+                    <div class="row">
+                        <span>2019</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-10">
+            <input type="range" class="w-100" name="YearSlider" (change)="sliderOnChangeHandler($event)" min="1991"
+                max="2019" step="1">
+        </div>
+    </div>
 </div>
