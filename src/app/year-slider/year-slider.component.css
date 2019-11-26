@@ -1,5 +1,9 @@
-.year-container {
-    margin: 15px;
+.year-slider {
+    margin-right: 10px !important;
+}
+
+.year-slider-control {
+    background-color: #22b55d !important;
 }
 
 .process-year-label {
