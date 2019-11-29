@@ -11,6 +11,7 @@ export class YearSliderComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    this.Year = (new Date()).getFullYear().toString();
   }
 
   sliderOnChangeHandler = ($event: any) => {

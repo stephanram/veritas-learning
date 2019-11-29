@@ -13,6 +13,8 @@ import { TopBannerComponent } from './top-banner/top-banner.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { FilterOptionComponent } from './filter-option/filter-option.component';
 import { YearSliderComponent } from './year-slider/year-slider.component';
+import { SearchNavTabComponent } from './search-nav-tab/search-nav-tab.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -20,17 +22,14 @@ import { YearSliderComponent } from './year-slider/year-slider.component';
     MenuComponent,
     TopBannerComponent,
     FilterOptionComponent,
-    YearSliderComponent
+    YearSliderComponent,
+    SearchNavTabComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatMenuModule,
-    MatCardModule,
-    MatButtonModule,
-    MatIconModule,
-    MatToolbarModule
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

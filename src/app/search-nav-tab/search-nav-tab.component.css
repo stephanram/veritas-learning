@@ -1,0 +1,12 @@
+.tab-content-override {
+    margin: auto;
+}
+
+.outline-bar-result {
+    
+}
+
+.outline-bar-second {
+    border:1px solid !important;
+    background-color: red;
+}
