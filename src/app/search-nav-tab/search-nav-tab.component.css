@@ -1,9 +1,8 @@
-.tab-content-override {
-    margin: auto;
-}
-
-.outline-bar-result {
-    
+.search-div {
+    border-left: 0.5px solid;
+    border-right: 0.5px solid;
+    border-bottom: 0.5px solid;
+    border-color:#dee2e6 #dee2e6 #dee2e6;
 }
 
 .outline-bar-second {

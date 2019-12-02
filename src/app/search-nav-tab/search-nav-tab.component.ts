@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faCoffee, faObjectGroup } from '@fortawesome/free-solid-svg-icons';
+import { faCoffee, faObjectGroup, faCalendar } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-search-nav-tab',
@@ -9,9 +9,10 @@ import { faCoffee, faObjectGroup } from '@fortawesome/free-solid-svg-icons';
 export class SearchNavTabComponent implements OnInit {
   faCoffee = faCoffee;
   faObjectGroup = faObjectGroup;
-  
+  faCalendar = faCalendar;
+
   constructor() {
-   }
+  }
 
   ngOnInit() {
   }
