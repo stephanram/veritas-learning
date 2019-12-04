@@ -6,6 +6,20 @@
 }
 
 .outline-bar-second {
-    border:1px solid !important;
+    border:5px solid !important;
     background-color: red;
+    border-color: blue;
+}
+
+.div-school-title {
+    border:1px solid !important;
+    margin:10px;
+}
+
+.div-school-header {
+    background-color: #7b8b9a;
+}
+
+.form-control-override {
+    margin-bottom: auto !important;
 }
